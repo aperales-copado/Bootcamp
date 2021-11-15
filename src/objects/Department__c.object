@@ -149,92 +149,36 @@
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>true</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Amount__c</fullName>
-        <externalId>false</externalId>
-        <label>Amount</label>
-        <precision>18</precision>
-        <required>true</required>
-        <scale>2</scale>
-        <trackTrending>false</trackTrending>
-        <type>Currency</type>
-    </fields>
-    <fields>
-        <fullName>Expense_Type__c</fullName>
-        <externalId>false</externalId>
-        <label>Expense Type</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Airfare</fullName>
-                    <default>false</default>
-                    <label>Airfare</label>
-                </value>
-                <value>
-                    <fullName>Hotel</fullName>
-                    <default>false</default>
-                    <label>Hotel</label>
-                </value>
-                <value>
-                    <fullName>Rental car</fullName>
-                    <default>false</default>
-                    <label>Rental car</label>
-                </value>
-                <value>
-                    <fullName>Meals</fullName>
-                    <default>false</default>
-                    <label>Meals</label>
-                </value>
-                <value>
-                    <fullName>Other</fullName>
-                    <default>false</default>
-                    <label>Other</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>External_Id__c</fullName>
+        <fullName>Department_Code__c</fullName>
         <caseSensitive>true</caseSensitive>
         <externalId>true</externalId>
-        <label>External Id</label>
-        <length>18</length>
+        <label>Department Code</label>
+        <length>10</length>
         <required>true</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>true</unique>
     </fields>
-    <fields>
-        <fullName>Travel_Approval__c</fullName>
-        <externalId>false</externalId>
-        <label>Travel Approval</label>
-        <referenceTo>Travel_Approval__c</referenceTo>
-        <relationshipLabel>Expense Items</relationshipLabel>
-        <relationshipName>Expense_Items</relationshipName>
-        <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
-        <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
-    </fields>
-    <label>Expense Item</label>
+    <label>Department</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Department_Code__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
-        <displayFormat>E-{00000}</displayFormat>
-        <label>Expense Item Number</label>
-        <type>AutoNumber</type>
+        <label>Department Name</label>
+        <type>Text</type>
     </nameField>
-    <pluralLabel>Expense Items</pluralLabel>
+    <pluralLabel>Departments</pluralLabel>
     <searchLayouts />
-    <sharingModel>ControlledByParent</sharingModel>
-    <startsWith>Vowel</startsWith>
+    <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
