@@ -280,6 +280,17 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Pablo_a__c</fullName>
+        <externalId>false</externalId>
+        <label>Pablo a</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Pricebook2Id</fullName>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -297,6 +308,15 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Rodrigo_a__c</fullName>
+        <externalId>false</externalId>
+        <label>Rodrigo a</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
     </fields>
     <fields>
         <fullName>StageName</fullName>
