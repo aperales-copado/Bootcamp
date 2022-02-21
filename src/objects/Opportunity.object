@@ -280,6 +280,17 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Pablo_c__c</fullName>
+        <externalId>false</externalId>
+        <label>Pablo c</label>
+        <length>120</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Pricebook2Id</fullName>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
