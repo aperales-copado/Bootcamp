@@ -1,3 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AutoReply_FromAddress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AutoReply_FromAddress</shortDescription>
+        <value>AutoReply_FromAddress</value>
+    </labels>
+    <labels>
+        <fullName>Hello_World</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>-- Hello World --</shortDescription>
+        <value>-- Hello World --</value>
+    </labels>
+</CustomLabels>
