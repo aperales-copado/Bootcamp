@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Sales --></label>
+        <name>Sales</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Travel App --></label>
+        <name>Travel_App</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- Alfredo --></label>
+        <name>Alfredo</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- MobileLanding --></label>
+        <name>MobileLanding</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Mobile Landing --></label>
+        <name>Mobile_Landing_vf</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Non_Mobile Landing --></label>
+        <name>Non_Mobile_Landing</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <name>Alfredo_New_screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>recordId</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Case_Created_Script</name>
+                </fields>
+                <fields>
+                    <name>Case_Created_Title</name>
+                </fields>
+                <name>Case_Created_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Case_Details_Input</name>
+                </fields>
+                <fields>
+                    <name>Case_Details_Script</name>
+                </fields>
+                <fields>
+                    <name>Case_Details_Title</name>
+                </fields>
+                <fields>
+                    <name>Case_Origin_Input</name>
+                </fields>
+                <fields>
+                    <name>Case_Subject_Input</name>
+                </fields>
+                <fields>
+                    <name>Case_Type_Input</name>
+                </fields>
+                <name>Case_Details_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Confirm_Identity_Title</name>
+                </fields>
+                <fields>
+                    <name>Customer_Name_Script</name>
+                </fields>
+                <fields>
+                    <name>First_Name_Input</name>
+                </fields>
+                <fields>
+                    <name>Last_Name_Input</name>
+                </fields>
+                <name>Confirm_Case_Title</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Confirm_Contact_Details_Title</name>
+                </fields>
+                <fields>
+                    <name>Contact_Details_Script</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>required</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Email_Input</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>required</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Phone_Input</name>
+                </fields>
+                <name>Confirm_Contact_Details_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Contact_Error_Desc</name>
+                </fields>
+                <fields>
+                    <name>Contact_Error_Title</name>
+                </fields>
+                <name>Contact_Error_Screen</name>
+            </screens>
+            <stages>
+                <name>Case_Details_Stage</name>
+            </stages>
+            <stages>
+                <name>Contact_Details_Stage</name>
+            </stages>
+            <textTemplates>
+                <name>Case_Created_Script_Template</name>
+            </textTemplates>
+            <textTemplates>
+                <name>Case_Details_Script_Template</name>
+            </textTemplates>
+            <textTemplates>
+                <name>Contact_Details_Script_Template</name>
+            </textTemplates>
+            <textTemplates>
+                <name>Contact_Error_Title_Template</name>
+            </textTemplates>
+            <textTemplates>
+                <name>Customer_Name_Script_Template</name>
+            </textTemplates>
+            <textTemplates>
+                <name>Email_Title_Template</name>
+            </textTemplates>
+            <textTemplates>
+                <name>Flow_Title_Text_Template</name>
+            </textTemplates>
+            <textTemplates>
+                <name>Phone_Title_Template</name>
+            </textTemplates>
+        </flows>
+        <fullName>Alfredo_Flow</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- Follow Up --></label>
+        <name>Follow_Up</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Screen Flows --></description>
+        <label><!-- Screen Flows --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Flow Interview Log Entries --></label>
+            <name>Flow Interview Log Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Flow Interview Logs --></label>
+            <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
+</Translations>
